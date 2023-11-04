@@ -36,6 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/sagit_imx268_liteon_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sagit_imx268_liteon_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/sagit_imx386_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sagit_imx386_semco_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/camera/sagit_s5k3m3_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sagit_s5k3m3_semco_chromatix.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
@@ -129,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx268_liteon_video_4k.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx268_liteon_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_liteon_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx268_liteon_zsl_video_3a.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx268_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx268_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_4K_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_4K_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_common.so \
@@ -152,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_hfr_60_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_hfr_90.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_hfr_90_3a.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_hfr_240_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_liveshot.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_postproc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_sagit_imx386_semco_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sagit_imx386_semco_preview.so \
@@ -169,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx268_primax_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sagit_imx268_primax_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sagit_imx386_semco_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_s5k3m3_semco_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sagit_s5k3m3_semco_eeprom.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.msm8998.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.msm8998.so \
